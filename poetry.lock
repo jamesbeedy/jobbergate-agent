@@ -424,7 +424,7 @@ description = "Jobbergate Core"
 optional = false
 python-versions = "^3.10"
 files = []
-develop = true
+develop = false
 
 [package.dependencies]
 httpx = "^0.24.1"
@@ -1309,4 +1309,4 @@ dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "88df49be47c3f609fe1c454bbcd2ea851a07ac84fc93c91339369c2e26b1237e"
+content-hash = "ad667b7438144bf6e08190e56f8d5f18493a186f3663671a410ed28636b2c1c5"
