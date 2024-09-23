@@ -17,7 +17,7 @@ classifiers = [
 
 [tool.setuptools.packages.find]
 where = ["src/"]
-include = ["jobbergate_agent"]
+include = ["jobbergate_agent", "jobbergate_core"]
 
 
 [tool.poetry.urls]
@@ -46,7 +46,7 @@ pydantic-settings = "^2.3.3"
 # Since it is at build time, there is no need to install the pluging on dev machines,
 # the deployment workflow will take care of it.
 # Reference: https://github.com/python-poetry/poetry/issues/6850#issuecomment-1445477319
-strategy = "exact"
+#strategy = "exact"
 
 [tool.poetry.scripts]
 jg-run = "jobbergate_agent.main:main"
