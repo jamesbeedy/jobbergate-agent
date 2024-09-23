@@ -436,7 +436,7 @@ python-jose = "^3.3.0"
 
 [package.source]
 type = "directory"
-url = "../jobbergate-core"
+url = "src/jobbergate-core"
 
 [[package]]
 name = "loguru"
@@ -1309,4 +1309,4 @@ dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "ad667b7438144bf6e08190e56f8d5f18493a186f3663671a410ed28636b2c1c5"
+content-hash = "2a0e67ed10e5e092482789b224b90591f1b19bc111749c9c1d8bbcfcd2d0110b"
